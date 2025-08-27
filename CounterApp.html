@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CounterApp</title>
+    <link rel="stylesheet" href="CounterApp.css">
+</head>
+
+<body class='page' style="background: black;">
+    <div class="container" style="width: 35%; margin: 250px auto; padding: 10px 10px; background: lightblue; border-radius: 10px;">
+        <h1 id="heading" style="background: #E8DCDA; margin: 20px auto; padding: 5px 5px; text-align: center; border-radius: 5px;">Counter App</h1>
+        
+        <div class="calculation" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+            <button id="btn1" style="width: 30px; font-weight: 500; border-radius: 5px; font-size:x-large; border: solid 1px;" onclick="clickme('less')"> - </button>
+            <p id="num" style="font-weight: 500; font-size: larger; color: red;">0</p>
+            <button id="btn2" style="width: 30px; font-weight: 500; border-radius: 5px; font-size:x-large; border: solid 1px;" onclick="clickme('more')"> + </button>
+        </div>
+        <div class="reset" style="text-align: center; margin-top: 20px;">
+            <button id="btn3" style="padding: 5px 10px; font-weight: 500; border-radius: 5px; font-size: medium; border: solid 1px;" onclick="resetme()"> Reset </button>
+        </div>
+
+    </div>
+    <script src = 'CounterApp.js'>
+    </script>
+</body>
+
+</html>
